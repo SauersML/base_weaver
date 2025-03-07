@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Meowify Tweets",
+  "version": "1.0",
+  "description": "Adds 'meow' to the end of every tweet on X.com",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.x.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
