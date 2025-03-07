@@ -9,5 +9,8 @@
       "matches": ["*://*.x.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "cat_128x128.png"
+  }
 }
